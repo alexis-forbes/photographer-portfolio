@@ -1,7 +1,7 @@
 /* ============ GOOGLE FONTS =========== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-/* ============ VARIABLES CS S=========== */
+/* ============ VARIABLES CSS=========== */
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -9,7 +9,7 @@
 
 /* ============ COLORS =========== */
 :root {
-  --first-color: #4070f4;
+  --first-color: #40a798;
   --second-color: #0e2431;
 }
 
@@ -242,7 +242,13 @@ img {
   text-align: center;
 }
 .about__subtitle {
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-4);
+}
+.about__text {
+  margin: auto;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: var(--normal-font-size);
 }
 .about__img {
   justify-self: center;
@@ -315,7 +321,7 @@ img {
   row-gap: 2rem;
 }
 .work__img {
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0 40px 40px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -326,7 +332,9 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
-
+.text-wrapper {
+  color: var(--first-color);
+}
 /* ============ CONTACT =========== */
 .contact__input {
   width: 100%;
