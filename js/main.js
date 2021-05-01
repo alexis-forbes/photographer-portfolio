@@ -58,3 +58,5 @@ sr.reveal(".work__img", { interval: 200 });
 /* ============= CONTACT ======== */
 
 sr.reveal(".contact__input", { interval: 100 });
+
+/* ============= FILM ======== */
