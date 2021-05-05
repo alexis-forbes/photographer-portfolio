@@ -122,7 +122,7 @@ body {
 }
 @media (min-width: 54em) {
   .slide__title {
-    font-size: 5em;
+    font-size: 3em;
   }
 }
 .slide__title .title-line {
@@ -166,11 +166,11 @@ body {
 .slide__img {
   position: relative;
   display: block;
-  background-size: cover;
+  background-size: 150vh;
   background-attachment: fixed;
   background-position: 50%;
   -webkit-backface-visibility: hidden;
-  height: 0%;
+  height: 50%;
   width: 100%;
   filter: grayscale(0%);
   transition: height 1s 1.4s cubic-bezier(0.19, 1, 0.22, 1),
