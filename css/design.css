@@ -166,7 +166,7 @@ body {
 .slide__img {
   position: relative;
   display: block;
-  background-size: 60%;
+  background-size: 80%;
   background-attachment: fixed;
   background-position: 50%;
   -webkit-backface-visibility: hidden;
