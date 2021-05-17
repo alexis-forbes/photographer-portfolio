@@ -4,8 +4,9 @@
 }
 
 .videowrapper {
-  z-index: var(--z-back);
+  z-index: var(--z-normal);
   position: relative;
+
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0px;
@@ -15,7 +16,7 @@
   z-index: var(--z-back);
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 45px;
   right: 0px;
   bottom: 0px;
   height: 100%;
